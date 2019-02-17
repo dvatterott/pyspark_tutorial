@@ -1,0 +1,10 @@
+<section>
+  <h2>Machine Learning Time.</h2>
+  <iframe src="https://giphy.com/embed/aRK67eTsU5UqY" width="480" height="204" frameBorder="0"></iframe>
+</section>
+<section>
+  <h2>Check for nulls.</h2>
+  <p>
+    For all columns other than class, count how many rows have a null value. 
+  </p>
+</section>

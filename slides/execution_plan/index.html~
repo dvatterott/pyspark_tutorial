@@ -1,0 +1,25 @@
+<section>
+	<h2>Execution plan is available through dataframe and web ui.</h2>
+</section>
+<section>
+  <h2>df.explain()</h2>
+  <p><a href="https://spark.apache.org/docs/2.3.0/api/python/pyspark.sql.html#pyspark.sql.DataFrame.explain">Explain</a> 
+  <br><br>
+  Explaination of your dataframes lineage.
+  <br><br>
+  Spark is similar to SQL in that using only the necessary columns and filtering early will improve query speed.
+  </p>
+</section>
+<section>
+  <h2>Execution plan in web_ui.</h2>
+  <p>Navigate to <b>SQL</b> and select `count`
+  <br><br>
+  Notice that <b>hash aggregations</b>. Here, each executor counts their results, these results are sent to the driver who tabulates all the results.
+</section>
+<section>
+  <h2>Beware: Execution plans can quickly become too long for the driver to keep in memory!</h2>
+  <iframe src="https://giphy.com/embed/3o6gDSdED1B5wjC2Gc" width="480" height="378" frameBorder="0"></iframe>
+</section>
+<section>
+  <h2>Prevent this by caching, checkpointing, and writing tables when necessary.</h2>
+</section>

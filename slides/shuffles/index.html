@@ -1,0 +1,24 @@
+<section>
+  <h2>What is a shuffle??</h2>
+  <iframe src="https://giphy.com/embed/pketYkIQQkMO4" width="480" height="353" frameBorder="0"></iframe>
+</section>
+<section>
+  <h2>Distributed computing worst best when executors work indepedently.</h2>
+  <p>
+  <br><br>
+  Shuffles are operations when the executors <b>CANNOT</b> workly indepedently.  
+  <br><br>
+  A shuffle is when your executors must communicate with the driver (and each other).
+  <br><br>
+  Joins, GroupBys, Window functions, Repartitions, Aggregations.
+  </p>
+</section>
+<section>
+  <h2>Revisiting the execution plan.</h2>
+  <p>
+  <br><br>
+  Notice the 2 hash aggregations and the hash exchange.
+  <br><br>
+  Shuffle operations also incur IO costs.
+  </p>
+</section>

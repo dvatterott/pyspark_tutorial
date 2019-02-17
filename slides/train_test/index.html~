@@ -1,0 +1,29 @@
+<section>
+  <h2>Time to leave dataframes behind.</h2>
+  <iframe src="https://giphy.com/embed/bEVKYB487Lqxy" width="480" height="264" frameBorder="0"></iframe>
+</section>
+<section>
+  <h2>Place model inputs in a vector.</h2>
+  <p>
+    <a href="https://spark.apache.org/docs/2.3.0/ml-features.html#vectorassembler">Vector Assembler</a>
+  </p>
+</section>
+<section>
+  <h2>Normalize Inputs.</h2>
+  <p>
+    <a href="https://spark.apache.org/docs/2.3.0/ml-features.html#standardscaler">Standard Scaler</a>
+  </p>
+</section>
+<section>
+  <h2>One-Hot Encoding Inputs.</h2>
+  <p>
+    <a href="https://spark.apache.org/docs/2.3.0/ml-features.html#onehotencoderestimator">One-Hot Encoder</a>
+  </p>
+</section>
+<section>
+  <h2>String to numbers.</h2>
+  <p>
+    <a href="https://spark.apache.org/docs/2.3.0/ml-features.html#stringindexer">String Indexer</a>
+  </p>
+</section>
+  

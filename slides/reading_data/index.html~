@@ -1,0 +1,21 @@
+<section>
+  <h2>Startup Docker and navigate to your jupyter notebook!</h2>
+</section>
+<section>
+  <h2>Create Spark Session.</h2>
+  <p><a href="https://spark.apache.org/docs/2.3.0/api/python/pyspark.sql.html#pyspark.sql.SparkSession">SparkSession Docs</a>
+  <br><br>
+  This is the container that will read in dataframes, register tables, execute commands on tables, cache tables, etc. 
+  <br><br>
+  I think of it as my spark kernel (like you have a python kernel when you enter 'python' into the terminal)
+  </p>
+</section>
+<section>
+  <h2>Read data into spark.</h2>
+  <p><a href="https://spark.apache.org/docs/2.3.0/api/python/pyspark.sql.html#pyspark.sql.DataFrameReader">DataFrameReader Docs</a>
+  <br><br>
+  Instructions for how Spark should read the data. 
+  <br><br>
+  Remember that all your executors will receive a (random?) portion of the data.
+  </p>
+</section>

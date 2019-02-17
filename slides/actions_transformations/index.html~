@@ -1,0 +1,19 @@
+<section>
+	<h2>Notice a lack of jobs even though we read in the data!</h2>
+</section>
+<section>
+  <h2>Spark is lazy.</h2>
+  <iframe src="https://giphy.com/embed/o6Hc5c9O387Nm" width="480" height="336" frameBorder="0"></iframe>
+</section
+<section>
+  <h2>Spark is lazy.</h2>
+  <p><a href="https://spark.apache.org/docs/2.3.0/rdd-programming-guide.html#transformations">Transformations</a> and <a href="https://spark.apache.org/docs/2.3.0/rdd-programming-guide.html#actions">Actions</a> 
+  <br><br>
+  All Spark commands are either <i>transformations</i> or <i>actions</i>.
+  <br><br>
+  <i>Transformations</i> are instructions for a particular operations but this will not be performed until you call an ... <i>action</i>.
+  </p>
+</section>
+<section>
+  <h2>Inspect UI after calling count</h2>
+</section>

@@ -1,0 +1,22 @@
+<section>
+  <h2>You can use python to craft complex queries.</h2>
+  Notice the list comprehension. This sort of query would be <b>extremely</b> hard to write in SQL.
+  <br><br>
+  Lets break down what this list comprehension is doing.
+  </p>
+</section>
+<section>
+  <h3>*[F.avg(c) for c in df.columns if c != 'class']</h3>
+  <p>
+  df.columns is a list of columns (strings).
+  <br><br>
+  Filter out the column "class".
+  <br><br>
+  Take the average of each column.
+  <br><br>
+  The star expands the list into agg.
+  </p>
+</section>
+<section>
+  <h2>Beware of wrapping python loops around your spark code.</h2>
+</section>
