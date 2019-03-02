@@ -43,7 +43,7 @@
 				<section data-external="slides/spark_apis/index.html"></section> <!--5-->
 				<section data-external="slides/cluster_computing/index.html"></section> <!--6-->
 				<section data-external="slides/reading_data/index.html"></section> <!--7-->
-				<!--section data-external="slides/web_ui/index.html"></section--> <!--8-->
+				<section data-external="slides/web_ui/index.html"></section> <!--8-->
 				<section data-external="slides/actions_transformations/index.html"></section> <!--9-->
 				<section data-external="slides/execution_plan/index.html"></section> <!--10-->
 				<section data-external="slides/python/index.html"></section> <!--11-->
@@ -52,10 +52,10 @@
 				<section data-external="slides/pandas/index.html"></section> <!--14-->
 				<section data-external="slides/ml_model/index.html"></section> <!--15-->
 				<section data-external="slides/vector/index.html"></section> <!--16-->
-				<section data-external="slides/train_test/index.html"></section> <!--17-->
-				<section data-external="slides/model/index.html"></section> <!--18-->
-				<section data-external="slides/pyspark_docs/index.html"></section> <!--19-->
-				<section data-external="slides/questions/index.html"></section> <!--20-->
+
+				<section data-external="slides/pyspark_docs/index.html"></section> <!--16-->
+				<section data-external="slides/questions/index.html"></section> <!--17-->
+
 			</div>
 		</div>
 
